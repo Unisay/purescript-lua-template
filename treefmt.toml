@@ -1,0 +1,9 @@
+[formatter.lua]
+command = "lua-format"
+options = ["--in-place"]
+includes = ["src/**/*.lua", "test/**/*.lua", "dist/*.lua"]
+
+[formatter.purs]
+command = "purs-tidy"
+options = ["format-in-place"]
+includes = ["src/**/*.purs", "test/**/*.purs"]

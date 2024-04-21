@@ -1,0 +1,6 @@
+/dist/
+/output/
+/.psc*
+/.purs*
+/.psa*
+/.spago
